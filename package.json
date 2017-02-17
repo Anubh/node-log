@@ -1,4 +1,29 @@
 {
-  "name": "application-name",
-  "version": "0.0.1"
+  "name": "node-log",
+  "version": "0.0.1",
+  "description": "Keep an eye on your appliation logs in structred way.",
+  "author": "Anubhav Singh",
+  "engines": {
+    "node":  ">= 6.0.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.urbanclap.com:urbanclap/packman.git"
+  },
+  "keywords": [
+    "node",
+    "bunyan",
+    "logger",
+    "application logs"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "^1.8.5",
+    "json-stringify-safe": "^5.0.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "prettyjson": "^1.2.1",
+    "uuid": "^3.0.1"
+  }
 }
